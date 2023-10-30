@@ -1,0 +1,8 @@
+services:
+  stockholm:
+    build:
+      context: .
+    ports:
+      - "4242:4242"
+    volumes:
+      - ./infection:/root/infection
